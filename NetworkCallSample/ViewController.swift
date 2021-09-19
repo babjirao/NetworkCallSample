@@ -27,6 +27,7 @@ class ViewController: UIViewController{
             do {
                 let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
                 print(json["data"])
+                
             } catch {
                 print("error")
             }
