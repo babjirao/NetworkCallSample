@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B107130A26F7A2B300F3D6AF /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B107130826F7A2B200F3D6AF /* NewsTableViewCell.xib */; };
+		B107130B26F7A2B300F3D6AF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B107130926F7A2B300F3D6AF /* NewsTableViewCell.swift */; };
 		B1BF3645268EB13E0055A26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF3644268EB13E0055A26D /* AppDelegate.swift */; };
 		B1BF3647268EB13E0055A26D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF3646268EB13E0055A26D /* SceneDelegate.swift */; };
 		B1BF3649268EB13E0055A26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF3648268EB13E0055A26D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B107130826F7A2B200F3D6AF /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		B107130926F7A2B300F3D6AF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		B1BF3641268EB13E0055A26D /* NetworkCallSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkCallSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BF3644268EB13E0055A26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1BF3646268EB13E0055A26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				B1BF3644268EB13E0055A26D /* AppDelegate.swift */,
 				B1BF3646268EB13E0055A26D /* SceneDelegate.swift */,
 				B1BF3648268EB13E0055A26D /* ViewController.swift */,
+				B107130926F7A2B300F3D6AF /* NewsTableViewCell.swift */,
+				B107130826F7A2B200F3D6AF /* NewsTableViewCell.xib */,
 				B1BF364A268EB13E0055A26D /* Main.storyboard */,
 				B1BF364D268EB13F0055A26D /* Assets.xcassets */,
 				B1BF364F268EB13F0055A26D /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				B1BF3651268EB13F0055A26D /* LaunchScreen.storyboard in Resources */,
 				B1BF364E268EB13F0055A26D /* Assets.xcassets in Resources */,
+				B107130A26F7A2B300F3D6AF /* NewsTableViewCell.xib in Resources */,
 				B1BF364C268EB13E0055A26D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				B1BF3649268EB13E0055A26D /* ViewController.swift in Sources */,
 				B1BF3645268EB13E0055A26D /* AppDelegate.swift in Sources */,
+				B107130B26F7A2B300F3D6AF /* NewsTableViewCell.swift in Sources */,
 				B1BF3647268EB13E0055A26D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
