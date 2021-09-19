@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "NetworkCall"
         // Do any additional setup after loading the view.
     }
 
